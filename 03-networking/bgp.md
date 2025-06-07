@@ -9,7 +9,7 @@
 - We can get 32 bit ASN numbers as well (this is out of scope for this exam)
 - ASNs are used by the BGP to identify different entities on the network
 - BGP is designed to be reliable and distributed, and it operates of TCP/179
-- It is not automatic, the communication between to AS should be done manually
+- It is not automatic, the communication between two AS should be done manually
 - Autonomous Systems do exchange network topology information between them
 - BGP is a path-vector protocol: it exchanges the best path to a destination between peers, the path is called **ASPATH** (Autonomous System Path)
 - BGP does not take into account link speed or condition, it focuses on path only
